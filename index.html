@@ -1,0 +1,69 @@
+<!doctype html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <title>Instalación de Tailwind CSS vía CDN</title>
+</head>
+
+<body class="flex flex-col min-h-screen">
+
+    <!-- Barra de navegación -->
+    <nav class="bg-blue-600 text-white py-4">
+        <div class="container mx-auto flex justify-between items-center">
+            <a href="#" class="text-xl font-bold">Mi Sitio Web</a>
+            <ul class="flex space-x-4">
+                <li><a href="#" class="hover:underline">Inicio</a></li>
+                <li><a href="#" class="hover:underline">Acerca de</a></li>
+                <li><a href="#" class="hover:underline">Servicios</a></li>
+                <li><a href="#" class="hover:underline">Contacto</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Sección de contenido -->
+    <main class="flex-grow container mx-auto py-8">
+        <div class="grid grid-cols-1 md:grid-cols-3 gap-4">
+            <!-- Columna 1: Acerca de -->
+            <div class="bg-gray-100 p-4 rounded-lg shadow-md">
+                <h2 class="text-lg font-bold mb-2">Acerca de</h2>
+                <p>
+                    Somos una empresa dedicada a proporcionar los mejores servicios para nuestros clientes. 
+                    Con años de experiencia en el sector, nuestro objetivo es superar las expectativas y ofrecer soluciones innovadoras.
+                </p>
+            </div>
+            <!-- Columna 2: Servicios -->
+            <div class="bg-gray-100 p-4 rounded-lg shadow-md">
+                <h2 class="text-lg font-bold mb-2">Servicios</h2>
+                <ul class="list-disc pl-5">
+                    <li>Consultoría profesional</li>
+                    <li>Desarrollo de software</li>
+                    <li>Marketing digital</li>
+                    <li>Soporte técnico</li>
+                </ul>
+            </div>
+            <!-- Columna 3: Contacto -->
+            <div class="bg-gray-100 p-4 rounded-lg shadow-md">
+                <h2 class="text-lg font-bold mb-2">Contacto</h2>
+                <p>
+                    Si tienes alguna pregunta o deseas más información, no dudes en contactarnos:
+                </p>
+                <ul class="list-disc pl-5">
+                    <li>Email: contacto@misitioweb.com</li>
+                    <li>Teléfono: +123 456 7890</li>
+                    <li>Dirección: Calle Falsa 123, Ciudad, País</li>
+                </ul>
+            </div>
+        </div>
+    </main>
+
+    <!-- Pie de página -->
+    <footer class="bg-blue-600 text-white py-4">
+        <div class="container mx-auto text-center">
+            &copy; 2024 Mi Sitio Web. Todos los derechos reservados.
+        </div>
+    </footer>
+
+</body>
+</html>
