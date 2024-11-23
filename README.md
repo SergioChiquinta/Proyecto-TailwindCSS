@@ -1,2 +1,1 @@
-# Proyecto-TailwindCSS
-Curso Hojas de Estilo en Cascada Avanzado
+Naomi Hernandez
